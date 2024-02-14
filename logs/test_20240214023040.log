@@ -1,0 +1,70 @@
+
+⬛ BEGIN LOGGING...
+START: 2024-02-14T02:30:40.389846+00:00
+USER: LanceHegland
+OPERATING SYSTEM: uname_result(system='Windows', node='laptop-dellxps-01', release='10', version='10.0.22621', machine='AMD64')
+PYTHON VERSION:: 3.11.6
+ROOT: C:\Users\LanceHegland\OneDrive - cloudcourtinc.com\Documents\projects\apps\logging\test.py
+ARGUMENTS: []
+LOG: C:\Users\LanceHegland\OneDrive - cloudcourtinc.com\Documents\projects\apps\logging\logs\test_20240214023040.log
+========== STARTING ========== 
+2024-02-13 20:30:40 -0600 - root - INFO 
+
+
+⬛ Trying Actions… 
+2024-02-13 20:30:40 -0600 - root - INFO 
+
+
+⚪ Sample debugging message to log only. 
+2024-02-13 20:30:40 -0600 - root - DEBUG 
+
+
+⬛ Sample informational message to log only. 
+2024-02-13 20:30:40 -0600 - root - INFO 
+
+
+⬛ 🔎VarVal🔍 sample_variable (<class 'int'>): 30 
+2024-02-13 20:30:40 -0600 - root - INFO 
+
+
+⬛ 🔎VarVal🔍 log._exec_info (<class 'lib.classes.log.exec_info._ExecInfo'>):
+_ExecInfo(_module_basename='test',
+          _arguments=[],
+          _directories=_Directories(initial='C:\\Users\\LanceHegland\\OneDrive - cloudcourtinc.com\\Documents\\projects\\apps\\logging', final=None),
+          _user='LanceHegland',
+          _system=uname_result(system='Windows', node='laptop-dellxps-01', release='10', version='10.0.22621', machine='AMD64'),
+          _python_version='3.11.6',
+          _timestamps=_Timestamps(start=datetime.datetime(2024, 2, 14, 2, 30, 40, 389846, tzinfo=datetime.timezone.utc), end=None)) 
+2024-02-13 20:30:40 -0600 - root - INFO 
+
+
+🟧 Sample warning message. 
+2024-02-13 20:30:40 -0600 - root - WARNING 
+MainThread → MainProcess 
+C:\Users\LanceHegland\OneDrive - cloudcourtinc.com\Documents\projects\apps\logging\lib\classes\log\__init__.py 
+→ __init__ → warning @ 165 
+EXCEPTION INFO: None 
+
+
+🟥 Sample error message. 
+2024-02-13 20:30:40 -0600 - root - ERROR 
+MainThread → MainProcess 
+C:\Users\LanceHegland\OneDrive - cloudcourtinc.com\Documents\projects\apps\logging\lib\classes\log\__init__.py 
+→ __init__ → error @ 169 
+EXCEPTION INFO: None 
+
+
+⬛ 🟩 …Completed Actions. 
+2024-02-13 20:30:40 -0600 - root - INFO 
+
+
+⬛ ========== ENDING ==========
+*** Final log directory not specified. ***
+
+LOG: C:\Users\LanceHegland\OneDrive - cloudcourtinc.com\Documents\projects\apps\logging\logs\test_20240214023040.log
+
+  END: 2024-02-14T02:30:40.395848+00:00
+- START: 2024-02-14T02:30:40.389846+00:00
+= ELAPSED: 0m 0s 6ms 2μs 
+2024-02-13 20:30:40 -0600 - root - INFO 
+
